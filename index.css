@@ -90,13 +90,35 @@
 
 .fourty-container {
     display: flex;
-    background-color: #3882f6;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    padding: 100px 0 100px 0;
+    margin: 100px 0 100px 0;
+}
+
+.fourty-container-action {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #3882f6;
+    gap: 200px;
+    padding: 100px;
+}
+
+.fourty-container-text {
+    color: #1f2937;
 }
 
 .fourty-container-button {
     border: #F9FAF8 solid 2px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color:#F9FAF8;
+    padding: 50px;
 }
 
 a {
@@ -105,8 +127,6 @@ a {
     font-size: 14px;
     padding-right: 10px;
 }
-
-
 
 button {
     background-color: #3882f6;
